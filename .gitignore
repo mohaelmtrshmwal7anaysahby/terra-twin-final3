@@ -1,0 +1,17 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+.vscode/
+.idea/
+
+# Generated at deploy time by scripts/fetch-nasa-feed.mjs
+public/data/nasa-feed.json
+
+# Playwright
+test-results/
+playwright-report/

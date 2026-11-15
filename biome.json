@@ -1,0 +1,15 @@
+{
+  "$schema": "https://biomejs.dev/schemas/latest/schema.json",
+  "files": { "includes": ["src/**/*.ts", "src/**/*.tsx", "scripts/**", "server.ts", "vite.config.ts"] },
+  "formatter": { "enabled": false },
+  "assist": { "enabled": false },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "a11y": { "recommended": true },
+      "style": { "recommended": false },
+      "suspicious": { "noArrayIndexKey": "off" }
+    }
+  }
+}
