@@ -23,7 +23,7 @@
     "@types/leaflet": "^1.9.22",
     "@types/three": "^0.187.0",
     "@vitejs/plugin-react": "^6.1.1",
-    "dotenv": "^17.2.3",
+    "dotenv": "^18.0.10",
     "express": "^4.21.2",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.546.0",
